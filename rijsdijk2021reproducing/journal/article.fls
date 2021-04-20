@@ -338,6 +338,12 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+INPUT article.out
+INPUT article.out
+INPUT article.out
+INPUT article.out
+INPUT ./article.out
+INPUT ./article.out
 OUTPUT article.out
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
@@ -346,10 +352,13 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 OUTPUT article.bcf
-INPUT header.tex
-INPUT header.tex
+INPUT article.bbl
+INPUT article.bbl
+INPUT article.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+INPUT header.tex
+INPUT header.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -389,4 +398,5 @@ INPUT ../openreview/appendix.tex
 INPUT article.aux
 INPUT ./article.out
 INPUT ./article.out
+INPUT article.run.xml
 OUTPUT article.run.xml

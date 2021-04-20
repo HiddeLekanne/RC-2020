@@ -1,11 +1,12 @@
 # Fdb version 3
-["biber article"] 0 "article.bcf" "article.bbl" "article" 0
-  "article.bcf" 0 -1 0 "pdflatex"
+["biber article"] 0 "article.bcf" "article.bbl" "article" 1618923287
+  "article.bcf" 1618923062 101510 d52b56493e39409e2c433e638543797d "pdflatex"
+  "bibliography.bib" 1618910640 2146 2628283a61cdc6cdd9a4e5561c8b44bd ""
   (generated)
   "article.bbl"
   "article.blg"
-["pdflatex"] 1618922618 "article.tex" "article.pdf" "article" 1618922618
-  "../openreview/appendix.tex" 1618918747 3408 dd64be8b40a8b096af1d6c4aac3ae9cd ""
+["pdflatex"] 1618923287 "article.tex" "article.pdf" "article" 1618923287
+  "../openreview/appendix.tex" 1618922865 3562 646732c347e7561bf980756988195783 ""
   "../openreview/content.tex" 1618918753 45154 dbd6f48d6be407cf2610f2a62146186a ""
   "../openreview/packages.tex" 1618922580 635 7c5366c4cdc25dccf4a0799a0e70a99d ""
   "/etc/texmf/web2c/texmf.cnf" 1618917117 475 c0e671620eb5563b2130f56340a5fde8 ""
@@ -237,23 +238,24 @@
   "Reproducibility_Challenge_2020/IMG/scores/Log Likelihood.png" 0 -1 0 ""
   "Reproducibility_Challenge_2020/IMG/scores/Mcc Score.png" 0 -1 0 ""
   "TUphv.fd" 0 -1 0 ""
-  "article.aux" 1618919646 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "article.bbl" 0 -1 0 "biber article"
-  "article.out" 0 -1 0 "pdflatex"
+  "article.aux" 1618923062 13771 731d4426d6ce7484b70f6551a8ef827f "pdflatex"
+  "article.bbl" 1618923057 12170 728069d73868bd2f2eeee7adc903aec3 "biber article"
+  "article.out" 1618923062 1646 b4ec6fb918ad2959a5f0b4ba27c24887 "pdflatex"
+  "article.run.xml" 1618923062 2429 c9b3eb622a062e7efb9116b905cb4f1d "pdflatex"
   "article.tex" 1618922481 299 aca1d851a9e8d725d22b9f943ef14f91 ""
   "content.tex" 1618918683 34 7f71387b40a815da987af0f229bda2f8 ""
   "header.tex" 1618917405 3534 6b05e0c01e3066a3f9f2fd9479cf3645 ""
   "latent_corr/best_iFlow_42.png" 0 -1 0 ""
-  "metadata.tex" 1618922587 1966 8e28c861dbb08dffc540538495b3d31c ""
+  "metadata.tex" 1618923287 1966 8e28c861dbb08dffc540538495b3d31c ""
   "neurips_2019.sty" 1618910640 11011 bd7d13b5ebec93a54658bf6ef1d986f2 ""
   "rescience.cls" 1618917405 12764 29d93eea55b386a6bcc39c1378b403ad ""
   "scores/Log Likelihood_fixed.png" 0 -1 0 ""
   "scores/Mcc Score_fixed.png" 0 -1 0 ""
   "scores/violin_plot_fixed.png" 0 -1 0 ""
   (generated)
-  "article.out"
-  "article.bcf"
-  "article.aux"
   "article.run.xml"
+  "article.aux"
   "article.log"
   "article.pdf"
+  "article.bcf"
+  "article.out"

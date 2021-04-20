@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.4.20)  20 APR 2021 14:43
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2021.4.20)  20 APR 2021 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1426,7 +1426,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'american'.
-(./article.aux)
+(./article.aux
+
+LaTeX Warning: Label `fig:latentcorr_fixed1' multiply defined.
+
+)
 \openout1 = `article.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
@@ -1590,16 +1594,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
+
+(./article.out) (./article.out)
 \@outlinefile=\write7
 \openout7 = `article.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \c@lstlisting=\count478
 Package biblatex Info: Trying to load language 'american'...
 Package biblatex Info: ... file 'american.lbx' found.
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/american.lbx
 File: american.lbx 2019/12/01 v3.14 biblatex localization (PK/MW)
 Package biblatex Info: Trying to load language 'english'...
@@ -1621,9 +1624,26 @@ Package biblatex Info: Automatic encoding selection.
 \openout6 = `article.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'article.bbl' not found.
+Package biblatex Info: ... file 'article.bbl' found.
 
-No file article.bbl.
+(./article.bbl
+LaTeX Font Info:    Trying to load font information for TU+phv on input line 73
+.
+
+No file TUphv.fd.
+
+LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
+(Font)              using `TU/lmr/m/n' instead on input line 73.
+
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
+File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
+ern Roman (RS)
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+)
 Package biblatex Info: Reference section=0 on input line 3.
 Package biblatex Info: Reference segment=0 on input line 3.
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1658,6 +1678,7 @@ Package biblatex Info: Reference segment=0 on input line 3.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
 (./header.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `Roboto' (encoding: TU).
@@ -1668,27 +1689,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Warning: Font shape `TU/ptm/b/n' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 18.
 
-LaTeX Font Info:    Trying to load font information for TU+phv on input line 18
-.
-No file TUphv.fd.
-
-LaTeX Font Warning: Font shape `TU/phv/m/n' undefined
-(Font)              using `TU/lmr/m/n' instead on input line 18.
-
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-LatinModernRoman.cfg
-File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
-ern Roman (RS)
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `RobotoCondensed' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 18.
-
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1713,9 +1718,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 LaTeX Font Warning: Font shape `TU/phv/b/n' undefined
 (Font)              using `TU/phv/m/n' instead on input line 18.
 
+Package marginnote Info: Margin note 1.1 is on absolute page 1 on input line 50
+.
 Package marginnote Info: right page because not two side mode on input line 50.
 
-Package marginnote Info: xpos seems to be \@mn@currxpos  on input line 50.
+Package marginnote Info: xpos seems to be 63.87643pt on input line 50.
 
 ! LaTeX Error: Command \container already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -1747,63 +1754,11 @@ and I'll forget about whatever was undefined.
 LaTeX Font Warning: Font shape `TU/ptm/m/it' undefined
 (Font)              using `TU/ptm/m/n' instead on input line 48.
 
-
-LaTeX Warning: Citation 'burgess2018understanding' on page 3 undefined on input
- line 50.
-
-
-LaTeX Warning: Citation 'khemakhem2020variational' on page 3 undefined on input
- line 52.
-
-
-LaTeX Warning: Citation 'li2019identifying' on page 3 undefined on input line 5
-4.
-
-
-LaTeX Warning: Citation 'li2019identifying' on page 3 undefined on input line 7
-7.
-
-
-LaTeX Warning: Reference `sec:results' on page 3 undefined on input line 77.
-
-
-LaTeX Warning: Reference `sec:requirements' on page 3 undefined on input line 9
-3.
-
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `SourceCodePro' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-LaTeX Warning: Citation 'durkan2019neural' on page 3 undefined on input line 10
-4.
-
-[3]
-
-LaTeX Warning: Citation 'kingma2013auto' on page 4 undefined on input line 106.
-
-
-
-LaTeX Warning: Citation 'hyvarinen2016unsupervised' on page 4 undefined on inpu
-t line 118.
-
-
-LaTeX Warning: Citation 'khemakhem2020variational' on page 4 undefined on input
- line 118.
-
-
-LaTeX Warning: Citation 'kingma2014adam' on page 4 undefined on input line 137.
-
-
-[4]
-
-LaTeX Warning: Reference `sec:methodology' on page 5 undefined on input line 15
-1.
-
-
-LaTeX Warning: Citation 'kingma2013auto' on page 5 undefined on input line 154.
-
-
+[3] [4]
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/scores/Mcc Score.png' n
 ot found on input line 182.
@@ -1862,29 +1817,7 @@ or  <return>  to continue without it.
 File: Reproducibility_Challenge_2020/IMG/scores/Log Likelihood.png Graphic file
  (type bmp)
 <Reproducibility_Challenge_2020/IMG/scores/Log Likelihood.png>
-
-LaTeX Warning: Reference `fig:MCCscores:a' on page 5 undefined on input line 20
-4.
-
-
-LaTeX Warning: Reference `fig:MCCscores:b' on page 5 undefined on input line 20
-4.
-
-
-LaTeX Warning: Reference `sec:alt methods' on page 5 undefined on input line 20
-4.
-
 [5]
-
-LaTeX Warning: Reference `fig:MCCscores:b' on page 6 undefined on input line 20
-8.
-
-
-LaTeX Warning: Reference `fig:2D' on page 6 undefined on input line 234.
-
-
-LaTeX Warning: Reference `fig:2D:a' on page 6 undefined on input line 236.
-
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_
 old_seed21.png' not found on input line 242.
@@ -2001,26 +1934,6 @@ or  <return>  to continue without it.
 File: Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_old_seed77.png 
 Graphic file (type bmp)
 <Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_old_seed77.png>
-
-LaTeX Warning: Reference `fig:latentcorr1' on page 6 undefined on input line 27
-1.
-
-
-LaTeX Warning: Reference `fig:latentcorr2' on page 6 undefined on input line 27
-1.
-
-
-LaTeX Warning: Reference `fig:latentcorr1' on page 6 undefined on input line 27
-1.
-
-
-LaTeX Warning: Reference `fig:latentcorr2' on page 6 undefined on input line 27
-1.
-
-
-LaTeX Warning: Reference `fig:latentcorr2' on page 6 undefined on input line 27
-3.
-
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/latent_corr/best_iFlow_
 42.png' not found on input line 279.
@@ -2139,33 +2052,6 @@ ile (type bmp)
 <Reproducibility_Challenge_2020/IMG/latent_corr/best_iVAE_92.png>
 [6]
 
-LaTeX Warning: Reference `fig:MCCscores_Fixed:a' on page 7 undefined on input l
-ine 312.
-
-
-LaTeX Warning: Reference `fig:MCCscores_Fixed:b' on page 7 undefined on input l
-ine 312.
-
-
-LaTeX Warning: Reference `sec:baselineexperiments' on page 7 undefined on input
- line 314.
-
-
-LaTeX Warning: Reference `fig:MCCscores' on page 7 undefined on input line 316.
-
-
-
-LaTeX Warning: Reference `fig:2D' on page 7 undefined on input line 316.
-
-
-LaTeX Warning: Reference `fig:latentcorr1' on page 7 undefined on input line 31
-6.
-
-
-LaTeX Warning: Reference `sec:appendixC' on page 7 undefined on input line 316.
-
-
-
 LaTeX Warning: File `scores/Mcc Score_fixed.png' not found on input line 321.
 
 ! Unable to load picture or PDF file '"scores/Mcc Score_fixed.png"'.
@@ -2218,31 +2104,23 @@ or  <return>  to continue without it.
 
 File: scores/Log Likelihood_fixed.png Graphic file (type bmp)
 <scores/Log Likelihood_fixed.png>
+[7] [8]
 
-LaTeX Warning: Citation 'kullback1951information' on page 7 undefined on input 
-line 336.
+LaTeX Font Warning: Font shape `TU/phv/m/it' undefined
+(Font)              using `TU/phv/m/n' instead on input line 427.
 
-[7]
+)) (../openreview/appendix.tex
 
-LaTeX Warning: Citation 'khemakhem2020variational' on page 8 undefined on input
- line 413.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-[8]
+[9]
 
-LaTeX Warning: Empty bibliography on input line 427.
-
-))
-
-LaTeX Warning: Empty bibliography on input line 10.
-
-(../openreview/appendix.tex [9]
-
-LaTeX Warning: File `scores/violin_plot_fixed.png' not found on input line 31.
+LaTeX Warning: File `scores/violin_plot_fixed.png' not found on input line 33.
 
 ! Unable to load picture or PDF file 'scores/violin_plot_fixed.png'.
 <to be read again> 
                    }
-l.31 ...5\linewidth]{scores/violin_plot_fixed.png}
+l.33 ...5\linewidth]{scores/violin_plot_fixed.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2254,7 +2132,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...5\linewidth]{scores/violin_plot_fixed.png}
+l.33 ...5\linewidth]{scores/violin_plot_fixed.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2264,13 +2142,13 @@ File: scores/violin_plot_fixed.png Graphic file (type bmp)
 <scores/violin_plot_fixed.png>
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_
-fixed_iVAE.png' not found on input line 38.
+fixed_iVAE.png' not found on input line 40.
 
 ! Unable to load picture or PDF file 'Reproducibility_Challenge_2020/IMG/2D_per
 f/2D_performance_fixed_iVAE.png'.
 <to be read again> 
                    }
-l.38 ...IMG/2D_perf/2D_performance_fixed_iVAE.png}
+l.40 ...IMG/2D_perf/2D_performance_fixed_iVAE.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2282,7 +2160,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...IMG/2D_perf/2D_performance_fixed_iVAE.png}
+l.40 ...IMG/2D_perf/2D_performance_fixed_iVAE.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2292,13 +2170,13 @@ File: Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_fixed_iVAE.png
 Graphic file (type bmp)
 <Reproducibility_Challenge_2020/IMG/2D_perf/2D_performance_fixed_iVAE.png>
 
-LaTeX Warning: File `latent_corr/best_iFlow_42.png' not found on input line 47.
+LaTeX Warning: File `latent_corr/best_iFlow_42.png' not found on input line 49.
 
 
 ! Unable to load picture or PDF file 'latent_corr/best_iFlow_42.png'.
 <to be read again> 
                    }
-l.47 ...\textwidth]{latent_corr/best_iFlow_42.png}
+l.49 ...\textwidth]{latent_corr/best_iFlow_42.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2310,7 +2188,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.47 ...\textwidth]{latent_corr/best_iFlow_42.png}
+l.49 ...\textwidth]{latent_corr/best_iFlow_42.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2320,12 +2198,12 @@ File: latent_corr/best_iFlow_42.png Graphic file (type bmp)
 <latent_corr/best_iFlow_42.png>
 
 LaTeX Warning: File `IMG/latent_corr/fixed_iVAE_42.png' not found on input line
- 51.
+ 53.
 
 ! Unable to load picture or PDF file 'IMG/latent_corr/fixed_iVAE_42.png'.
 <to be read again> 
                    }
-l.51 ...twidth]{IMG/latent_corr/fixed_iVAE_42.png}
+l.53 ...twidth]{IMG/latent_corr/fixed_iVAE_42.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2337,7 +2215,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.51 ...twidth]{IMG/latent_corr/fixed_iVAE_42.png}
+l.53 ...twidth]{IMG/latent_corr/fixed_iVAE_42.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2347,13 +2225,13 @@ File: IMG/latent_corr/fixed_iVAE_42.png Graphic file (type bmp)
 <IMG/latent_corr/fixed_iVAE_42.png>
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/latent_corr/iFlow_X.png
-' not found on input line 61.
+' not found on input line 63.
 
 ! Unable to load picture or PDF file 'Reproducibility_Challenge_2020/IMG/latent
 _corr/iFlow_X.png'.
 <to be read again> 
                    }
-l.61 ...hallenge_2020/IMG/latent_corr/iFlow_X.png}
+l.63 ...hallenge_2020/IMG/latent_corr/iFlow_X.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2365,7 +2243,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...hallenge_2020/IMG/latent_corr/iFlow_X.png}
+l.63 ...hallenge_2020/IMG/latent_corr/iFlow_X.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2376,13 +2254,13 @@ type bmp)
 <Reproducibility_Challenge_2020/IMG/latent_corr/iFlow_X.png>
 
 LaTeX Warning: File `Reproducibility_Challenge_2020/IMG/latent_corr/best_fixed_
-iVAE_X.png' not found on input line 65.
+iVAE_X.png' not found on input line 67.
 
 ! Unable to load picture or PDF file 'Reproducibility_Challenge_2020/IMG/latent
 _corr/best_fixed_iVAE_X.png'.
 <to be read again> 
                    }
-l.65 ...020/IMG/latent_corr/best_fixed_iVAE_X.png}
+l.67 ...020/IMG/latent_corr/best_fixed_iVAE_X.png}
                                                   
 The requested image couldn't be read because
 it was not a recognized image format.
@@ -2394,7 +2272,7 @@ See the graphics package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.65 ...020/IMG/latent_corr/best_fixed_iVAE_X.png}
+l.67 ...020/IMG/latent_corr/best_fixed_iVAE_X.png}
                                                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2409,40 +2287,26 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
  (./article.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 13.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13.
+Package rerunfilecheck Info: File `article.out' has not changed.
+(rerunfilecheck)             Checksum: B4EC6FB918AD2959A5F0B4BA27C24887;1646.
 
-
-Package rerunfilecheck Warning: File `article.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `article.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B4EC6FB918AD2959A5F0B4BA27C24887;1646.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                article
-(biblatex)                and rerun LaTeX afterwards.
+LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'article.run.xml'.
 \openout1 = `article.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40652 strings out of 481804
- 843783 string characters out of 5937876
- 1582487 words of memory out of 5000000
- 56867 multiletter control sequences out of 15000+600000
+ 40704 strings out of 481804
+ 845269 string characters out of 5937876
+ 1588656 words of memory out of 5000000
+ 56913 multiletter control sequences out of 15000+600000
  537885 words of font info for 81 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 68i,18n,99p,1152b,3826s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,18n,99p,1152b,4637s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on article.pdf (10 pages).
