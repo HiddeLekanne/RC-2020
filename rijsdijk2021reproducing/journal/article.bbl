@@ -1,0 +1,305 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{burgess2018understanding}{article}{}
+      \name{author}{7}{}{%
+        {{hash=0d5ee02d0022efd3bd79a08fc1f5d87a}{%
+           family={Burgess},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima P},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=08a44a7f6d4c6a9b876d60071925d7a7}{%
+           family={Higgins},
+           familyi={H\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e108230ff84e0e9dc0342f059801c97f}{%
+           family={Pal},
+           familyi={P\bibinitperiod},
+           given={Arka},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ca99bbd5d79fc2a098b19d509dfd618}{%
+           family={Matthey},
+           familyi={M\bibinitperiod},
+           given={Loic},
+           giveni={L\bibinitperiod}}}%
+        {{hash=adaa530c9af9b336d467b2a151746fe3}{%
+           family={Watters},
+           familyi={W\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d422b1bf74c0632ee012bc51e397622d}{%
+           family={Desjardins},
+           familyi={D\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ab8697e1baff9a8e44cb823b3c9d1013}{%
+           family={Lerchner},
+           familyi={L\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{950537d7b4aab9ecde6e6eba5d5df909}
+      \strng{fullhash}{a469f67314885fe3d8e5b5f57bf84a8d}
+      \strng{bibnamehash}{a469f67314885fe3d8e5b5f57bf84a8d}
+      \strng{authorbibnamehash}{a469f67314885fe3d8e5b5f57bf84a8d}
+      \strng{authornamehash}{950537d7b4aab9ecde6e6eba5d5df909}
+      \strng{authorfullhash}{a469f67314885fe3d8e5b5f57bf84a8d}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1804.03599}
+      \field{title}{Understanding disentangling in $\beta$-VAE}
+      \field{year}{2018}
+    \endentry
+    \entry{khemakhem2020variational}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=762adc27718da3db8fd97d14b4d2d691}{%
+           family={Khemakhem},
+           familyi={K\bibinitperiod},
+           given={Ilyes},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9e7e4137e7cbcd294ec200aa968a6f22}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=65ddd6693df5ded19ef1a7280759b350}{%
+           family={Monti},
+           familyi={M\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=d8d0cf7bd57572ea220ffe8f52affb0a}{%
+           family={Hyvarinen},
+           familyi={H\bibinitperiod},
+           given={Aapo},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {PMLR}%
+      }
+      \strng{namehash}{915a95a6dfd5af99d27c64a80a2ec1a6}
+      \strng{fullhash}{579a22c6d4a093db95b89057f670f0fc}
+      \strng{bibnamehash}{579a22c6d4a093db95b89057f670f0fc}
+      \strng{authorbibnamehash}{579a22c6d4a093db95b89057f670f0fc}
+      \strng{authornamehash}{915a95a6dfd5af99d27c64a80a2ec1a6}
+      \strng{authorfullhash}{579a22c6d4a093db95b89057f670f0fc}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{International Conference on Artificial Intelligence and Statistics}
+      \field{title}{Variational autoencoders and nonlinear ica: A unifying framework}
+      \field{year}{2020}
+      \field{pages}{2207\bibrangedash 2217}
+      \range{pages}{11}
+    \endentry
+    \entry{li2019identifying}{article}{}
+      \name{author}{3}{}{%
+        {{hash=afdc262afafca53dd29b2814d250884c}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b5c2ebc85fb8cba01d66e9eaaae19fd1}{%
+           family={Hooi},
+           familyi={H\bibinitperiod},
+           given={Bryan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=acfde70bd66098da297a4f7fb11940d8}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Gim\bibnamedelima Hee},
+           giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \strng{fullhash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \strng{bibnamehash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \strng{authorbibnamehash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \strng{authornamehash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \strng{authorfullhash}{dd15ff023f62a9aea76dc7a5514ddd78}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1909.12555}
+      \field{title}{Identifying through Flows for Recovering Latent Representations}
+      \field{year}{2019}
+    \endentry
+    \entry{durkan2019neural}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=08439cf1d9cfff317a25afa9fd3255ac}{%
+           family={Durkan},
+           familyi={D\bibinitperiod},
+           given={Conor},
+           giveni={C\bibinitperiod}}}%
+        {{hash=98ff4693d66d28b3d46026e325e7d15d}{%
+           family={Bekasov},
+           familyi={B\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=237c383069f29d1d1ffe672359e89d38}{%
+           family={Murray},
+           familyi={M\bibinitperiod},
+           given={Iain},
+           giveni={I\bibinitperiod}}}%
+        {{hash=eab39f18cad46e4abd05bb4d62b340cd}{%
+           family={Papamakarios},
+           familyi={P\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d4be1a98b18d2d2bf154c23218ea59b7}
+      \strng{fullhash}{03ae148b2160762bb2d3453fd6555a99}
+      \strng{bibnamehash}{03ae148b2160762bb2d3453fd6555a99}
+      \strng{authorbibnamehash}{03ae148b2160762bb2d3453fd6555a99}
+      \strng{authornamehash}{d4be1a98b18d2d2bf154c23218ea59b7}
+      \strng{authorfullhash}{03ae148b2160762bb2d3453fd6555a99}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advances in Neural Information Processing Systems}
+      \field{title}{Neural Spline Flows}
+      \field{year}{2019}
+      \field{pages}{7511\bibrangedash 7522}
+      \range{pages}{12}
+    \endentry
+    \entry{kingma2013auto}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=53d2880ad8047b61cdae2c6b2803e763}{%
+           family={Welling},
+           familyi={W\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{fullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{bibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authorbibnamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authornamehash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \strng{authorfullhash}{aabdd5db7a1ed298b1dfb6824d032c66}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1312.6114}
+      \field{title}{Auto-Encoding Variational Bayes}
+      \field{year}{2013}
+    \endentry
+    \entry{hyvarinen2016unsupervised}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d8d0cf7bd57572ea220ffe8f52affb0a}{%
+           family={Hyvarinen},
+           familyi={H\bibinitperiod},
+           given={Aapo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4fc18169ac756fa2914c577cd7aafa11}{%
+           family={Morioka},
+           familyi={M\bibinitperiod},
+           given={Hiroshi},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \strng{fullhash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \strng{bibnamehash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \strng{authorbibnamehash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \strng{authornamehash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \strng{authorfullhash}{940ed5b4b43136cf1b13b44bd18865e8}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1605.06336}
+      \field{title}{Unsupervised feature extraction by time-contrastive learning and nonlinear ica}
+      \field{year}{2016}
+    \endentry
+    \entry{kingma2014adam}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b6fbd171848aad4edf3925543f1f1522}{%
+           family={Kingma},
+           familyi={K\bibinitperiod},
+           given={Diederik\bibnamedelima P},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8aa66e8231cc2fdbe67aa4f18ca970c6}{%
+           family={Ba},
+           familyi={B\bibinitperiod},
+           given={Jimmy},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{fullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{bibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorbibnamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authornamehash}{a09df9f123146b8e2c7f1134c9496932}
+      \strng{authorfullhash}{a09df9f123146b8e2c7f1134c9496932}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:1412.6980}
+      \field{title}{Adam: A method for stochastic optimization}
+      \field{year}{2014}
+    \endentry
+    \entry{kullback1951information}{article}{}
+      \name{author}{2}{}{%
+        {{hash=34c5bbf9876c37127c3abe4e7d7a7198}{%
+           family={Kullback},
+           familyi={K\bibinitperiod},
+           given={Solomon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=589dd9109c4ab08b8766cbb5f1bd58c8}{%
+           family={Leibler},
+           familyi={L\bibinitperiod},
+           given={Richard\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{dacf610a392371bd89d9fb4fdc21a220}
+      \strng{fullhash}{dacf610a392371bd89d9fb4fdc21a220}
+      \strng{bibnamehash}{dacf610a392371bd89d9fb4fdc21a220}
+      \strng{authorbibnamehash}{dacf610a392371bd89d9fb4fdc21a220}
+      \strng{authornamehash}{dacf610a392371bd89d9fb4fdc21a220}
+      \strng{authorfullhash}{dacf610a392371bd89d9fb4fdc21a220}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The annals of mathematical statistics}
+      \field{number}{1}
+      \field{title}{On information and sufficiency}
+      \field{volume}{22}
+      \field{year}{1951}
+      \field{pages}{79\bibrangedash 86}
+      \range{pages}{8}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
