@@ -10,17 +10,19 @@ The results obtained using this method were approximately the same as the origin
 The table below shows the results of experiments with changing the iVAE architecture to increase complexity. As shown, adding skip connections or layer normalisation to the architecture did not increase performance with respect to the unchanged baseline. Due to the high training time, no additional experiments could be done.
 
 \label{sec:baselineexperiments}
-\begin{center}
-\begin{tabular}{c|c|c|c|c} 
-     addition & NUM\_HIDDEN & NUM\_LAYERS & AVG MCC \\ 
-     \hline
-     - & 50 & 3 & 0.483 (\textpm 0.059)\\
-     \hline
-     residual connections & 50 & 3 & 0.474 (\textpm 0.053)\\
-     \hline
-     layer normalisation & 50 & 3 & 0.461 (\textpm 0.051)\\  
-\end{tabular}
-\end{center}
+\begin{table}[h]
+    \centering
+    \begin{tabular}{ccccc} 
+        \toprule 
+         \textbf{Addition} & \textbf{NUM\_HIDDEN} & \textbf{NUM\_LAYERS} & \textbf{AVG MCC} \\ 
+         \midrule
+         - & 50 & 3 & 0.483 (\textpm 0.059)\\
+         Residual Connections & 50 & 3 & 0.474 (\textpm 0.053)\\
+         Layer Normalisation & 50 & 3 & 0.461 (\textpm 0.051)\\ 
+         \bottomrule\\
+    \end{tabular}
+    \caption{Experiments with different iVAE architectures}
+\end{table}
 
 \newpage
 \section{Visualizations for Fixed iVAE}
